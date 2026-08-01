@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Gluten', display, cursive, sans-serif;
+  --font-sans: 'Playpen Sans', cursive, sans-serif;
+  --font-title: 'Gluten', display, cursive, sans-serif;
+  --font-body: 'Playpen Sans', cursive, sans-serif;
+}
+
+:root {
+  font-family: 'Playpen Sans', cursive, sans-serif;
+}
+
+body {
+  font-family: 'Playpen Sans', cursive, sans-serif;
+}
+
+/* Gluten font in bold for all headings, titles and font-serif/font-title elements */
+h1, h2, h3, h4, h5, h6, .font-title, .font-serif, .game-title {
+  font-family: 'Gluten', display, cursive, sans-serif;
+  font-weight: 700;
+}
+
+@keyframes colorFlowBlue {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes colorFlowRed {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-flow-blue {
+  background: linear-gradient(135deg, #e0f2fe, #dbeafe, #bae6fd, #e0f2fe);
+  background-size: 200% 200%;
+  animation: colorFlowBlue 7s ease-in-out infinite;
+}
+
+.bg-flow-blue-active {
+  background: linear-gradient(135deg, #bae6fd, #93c5fd, #7dd3fc, #bae6fd);
+  background-size: 200% 200%;
+  animation: colorFlowBlue 4s ease-in-out infinite;
+}
+
+.bg-flow-red {
+  background: linear-gradient(135deg, #fff1f2, #ffe4e6, #fff5f5, #fff1f2);
+  background-size: 200% 200%;
+  animation: colorFlowRed 7s ease-in-out infinite;
+}
+
+.bg-flow-red-active {
+  background: linear-gradient(135deg, #ffe4e6, #fecdd3, #ffe4e6, #ffe4e6);
+  background-size: 200% 200%;
+  animation: colorFlowRed 4s ease-in-out infinite;
+}
+
+/* Special rules for landscape phones & low height viewports (< 550px height) */
+@media (max-height: 550px) {
+  /* Reduce outer wrapper padding */
+  .short-landscape-wrapper {
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  /* Compact header */
+  .short-landscape-header {
+    margin-bottom: 0.2rem !important;
+    padding-bottom: 0.15rem !important;
+    padding-right: 2.5rem !important;
+    gap: 0.25rem !important;
+  }
+  .short-landscape-header h1 {
+    font-size: 0.85rem !important;
+    line-height: 1rem !important;
+  }
+  .short-landscape-header p {
+    display: none !important;
+  }
+  .short-landscape-header img {
+    height: 1.25rem !important;
+  }
+  .short-landscape-header .flag-icon {
+    font-size: 1.15rem !important;
+    line-height: 1.15rem !important;
+  }
+
+  /* Compact Game Header Panel */
+  .short-landscape-panel {
+    margin-bottom: 0.2rem !important;
+    padding: 0.2rem 0.35rem !important;
+    min-height: 0 !important;
+    border-radius: 0.75rem !important;
+  }
+  .short-landscape-panel button {
+    padding-top: 0.1rem !important;
+    padding-bottom: 0.1rem !important;
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+    font-size: 0.6rem !important;
+    border-radius: 0.375rem !important;
+  }
+  .short-landscape-panel .score-card {
+    padding: 0.1rem 0.25rem !important;
+    border-radius: 0.5rem !important;
+  }
+  .short-landscape-panel .time-bar {
+    height: 0.5rem !important;
+  }
+
+  /* Compact Ticker */
+  .short-landscape-ticker {
+    margin-bottom: 0.2rem !important;
+    height: 1.5rem !important;
+    font-size: 0.625rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    border-radius: 0.5rem !important;
+  }
+
+  /* Compact Board */
+  .short-landscape-board {
+    padding: 0.2rem !important;
+    border-width: 2px !important;
+    border-radius: 0.75rem !important;
+  }
+
+  /* Compact Quan Palace Pit */
+  .short-landscape-quan-pit {
+    min-height: 0 !important;
+    height: 100% !important;
+    padding: 0.15rem !important;
+    border-radius: 0.6rem !important;
+  }
+  .short-landscape-quan-house {
+    width: 24px !important;
+    height: 18px !important;
+  }
+
+  /* Compact Dan Cottage Pit */
+  .short-landscape-dan-pit {
+    height: 68px !important;
+    padding: 0.15rem !important;
+    border-radius: 0.5rem !important;
+  }
+  .short-landscape-cottage-roof {
+    display: none !important;
+  }
+
+  /* Compact River Divider */
+  .short-landscape-river {
+    padding-top: 0.05rem !important;
+    padding-bottom: 0.05rem !important;
+    font-size: 0.55rem !important;
+    border-radius: 0.375rem !important;
+  }
+}
+

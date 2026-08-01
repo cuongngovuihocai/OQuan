@@ -1,0 +1,31 @@
+{
+  "name": "Trò chơi Ô Ăn Quan - Ham Chơi Education",
+  "short_name": "Ô Ăn Quan",
+  "description": "Trò chơi Ô Ăn Quan dân gian Việt Nam với giao diện hoạt hình dân gian dễ thương.",
+  "start_url": "/OQuan/",
+  "scope": "/OQuan/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fbeee0",
+  "theme_color": "#8e2a2a",
+  "icons": [
+    {
+      "src": "/OQuan/favicon.svg",
+      "sizes": "192x192 512x512 any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/OQuan/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/OQuan/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

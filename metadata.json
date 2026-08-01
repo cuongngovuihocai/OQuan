@@ -1,0 +1,8 @@
+{
+  "name": "Ô Ăn Quan",
+  "description": "Trò chơi Ô ăn quan với đồ họa hoạt hình dễ thương",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

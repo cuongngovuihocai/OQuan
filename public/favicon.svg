@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <!-- Soft Pink to Sky Blue Background Gradient -->
+    <linearGradient id="icon-bg-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4a5cc" />
+      <stop offset="50%" stop-color="#e2b9e6" />
+      <stop offset="100%" stop-color="#9be2f7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rounded Frame with Dark Brown Border -->
+  <rect x="5" y="5" width="190" height="190" rx="40" fill="#ffffff" stroke="#3a2510" stroke-width="9" />
+  <rect x="14" y="14" width="172" height="172" rx="32" fill="url(#icon-bg-gradient)" />
+
+  <!-- MAIN CHARACTER GROUP -->
+  <g id="dual-quan-characters">
+
+    <!-- ================= QUAN ÔNG (LEFT) ================= -->
+    <g id="quan-ong-character" transform="translate(10, 0)">
+      <!-- Blue Body Gown -->
+      <path d="M 40 178 C 25 125, 32 95, 66 95 C 100 95, 107 125, 92 178 Z" fill="#318bc3" stroke="#3a2510" stroke-width="4" stroke-linejoin="round" />
+      
+      <!-- Gold Belt & Buckle -->
+      <rect x="36" y="132" width="60" height="15" rx="3" fill="#f1c40f" stroke="#3a2510" stroke-width="3" />
+      <rect x="58" y="129" width="16" height="21" rx="3" fill="#f39c12" stroke="#3a2510" stroke-width="3" />
+      <circle cx="66" cy="139.5" r="3" fill="#d35400" />
+
+      <!-- Cute Arms -->
+      <path d="M 36 122 Q 22 135 32 152" stroke="#3a2510" stroke-width="4.5" fill="none" stroke-linecap="round" />
+
+      <!-- Head & Face -->
+      <circle cx="66" cy="72" r="26" fill="#ffe0bd" stroke="#3a2510" stroke-width="4" />
+
+      <!-- Rosy Cheeks -->
+      <circle cx="50" cy="77" r="6" fill="#ff7979" opacity="0.65" />
+      <circle cx="82" cy="77" r="6" fill="#ff7979" opacity="0.65" />
+
+      <!-- Eyes -->
+      <circle cx="56" cy="69" r="4.5" fill="#2c3e50" />
+      <circle cx="57.5" cy="67" r="1.5" fill="#ffffff" />
+      <circle cx="76" cy="69" r="4.5" fill="#2c3e50" />
+      <circle cx="77.5" cy="67" r="1.5" fill="#ffffff" />
+
+      <!-- Cute Happy Open Smile -->
+      <path d="M 58 78 Q 66 87 74 78 Z" fill="#c0392b" stroke="#3a2510" stroke-width="2.5" />
+      <path d="M 61 81 Q 66 79 71 81" stroke="#ff7979" stroke-width="2" fill="none" stroke-linecap="round" />
+
+      <!-- Official's Wing Hat (Mũ Cánh Chuồn) -->
+      <!-- Left Wing -->
+      <ellipse cx="24" cy="60" rx="16" ry="6" fill="#16a085" stroke="#3a2510" stroke-width="3.5" transform="rotate(-10 24 60)" />
+      <!-- Right Wing -->
+      <ellipse cx="108" cy="60" rx="16" ry="6" fill="#16a085" stroke="#3a2510" stroke-width="3.5" transform="rotate(10 108 60)" />
+      <!-- Main Hat Dome -->
+      <path d="M 42 58 C 42 38, 90 38, 90 58 Z" fill="#16a085" stroke="#3a2510" stroke-width="4" stroke-linejoin="round" />
+      <!-- Gold Hat Band -->
+      <rect x="40" y="54" width="52" height="9" rx="3" fill="#f1c40f" stroke="#3a2510" stroke-width="3" />
+    </g>
+
+
+    <!-- ================= QUAN BÀ (RIGHT, IN FRONT) ================= -->
+    <g id="quan-ba-character" transform="translate(10, 0)">
+      <!-- Red Royal Gown (Phượng Bào) -->
+      <path d="M 100 180 C 84 130, 92 100, 126 100 C 160 100, 168 130, 152 180 Z" fill="#c0392b" stroke="#3a2510" stroke-width="4" stroke-linejoin="round" />
+
+      <!-- Gold Collar V-trim & Green Gem -->
+      <path d="M 112 100 L 126 120 L 140 100" stroke="#f1c40f" stroke-width="4" fill="none" stroke-linejoin="round" />
+      <circle cx="126" cy="123" r="4.5" fill="#2ecc71" stroke="#3a2510" stroke-width="2" />
+
+      <!-- Gold Waist Sash & Ribbon Knot -->
+      <rect x="94" y="136" width="64" height="12" rx="2" fill="#f1c40f" stroke="#3a2510" stroke-width="3" />
+      <path d="M 120 148 Q 114 162 122 174" stroke="#f1c40f" stroke-width="4" stroke-linecap="round" fill="none" />
+      <path d="M 120 148 Q 114 162 122 174" stroke="#3a2510" stroke-width="1.5" stroke-linecap="round" fill="none" />
+      <path d="M 130 148 Q 136 162 128 174" stroke="#f1c40f" stroke-width="4" stroke-linecap="round" fill="none" />
+      <path d="M 130 148 Q 136 162 128 174" stroke="#3a2510" stroke-width="1.5" stroke-linecap="round" fill="none" />
+      <circle cx="125" cy="148" r="4" fill="#f39c12" stroke="#3a2510" stroke-width="1.8" />
+
+      <!-- Red Sleeves -->
+      <path d="M 97 122 C 86 130, 88 145, 96 150" stroke="#3a2510" stroke-width="4" fill="none" />
+      <path d="M 98 123 C 88 131, 90 144, 97 148" fill="#c0392b" />
+      <path d="M 155 122 C 166 130, 164 145, 156 150" stroke="#3a2510" stroke-width="4" fill="none" />
+      <path d="M 154 123 C 164 131, 162 144, 155 148" fill="#c0392b" />
+
+      <!-- High Black Hair Bun -->
+      <ellipse cx="126" cy="46" rx="16" ry="11" fill="#2c3e50" stroke="#3a2510" stroke-width="3.5" />
+      <circle cx="126" cy="40" r="6" fill="#1a252f" />
+
+      <!-- Gold Hairpin (Trâm cắm ngang) -->
+      <line x1="92" y1="47" x2="160" y2="47" stroke="#f1c40f" stroke-width="4" stroke-linecap="round" />
+      <line x1="92" y1="47" x2="160" y2="47" stroke="#3a2510" stroke-width="1" stroke-linecap="round" />
+      <circle cx="160" cy="47" r="4.5" fill="#f39c12" stroke="#3a2510" stroke-width="2" />
+      <circle cx="92" cy="47" r="3.5" fill="#f39c12" stroke="#3a2510" stroke-width="2" />
+
+      <!-- Center Flower Ornament on Hairpin -->
+      <circle cx="126" cy="47" r="6.5" fill="#f1c40f" stroke="#3a2510" stroke-width="1.8" />
+      <circle cx="126" cy="47" r="3" fill="#e74c3c" />
+
+      <!-- Red Tassel Hanging from Hairpin -->
+      <path d="M 160 47 Q 163 56 160 66" stroke="#f1c40f" stroke-width="2.5" fill="none" stroke-linecap="round" />
+      <circle cx="160" cy="67" r="2.5" fill="#e74c3c" />
+
+      <!-- Head & Face -->
+      <ellipse cx="126" cy="74" rx="23" ry="24" fill="#ffe0bd" stroke="#3a2510" stroke-width="4" />
+      <path d="M 104 62 Q 126 50 148 62 C 144 54, 108 54, 104 62 Z" fill="#2c3e50" stroke="#3a2510" stroke-width="1.8" />
+
+      <!-- Rosy Cheeks -->
+      <circle cx="109" cy="78" r="5.5" fill="#ff7979" opacity="0.65" />
+      <circle cx="143" cy="78" r="5.5" fill="#ff7979" opacity="0.65" />
+
+      <!-- Pretty Eyes -->
+      <path d="M 110 67 Q 115 65 120 67" stroke="#3a2510" stroke-width="1.8" fill="none" />
+      <path d="M 132 67 Q 137 65 142 67" stroke="#3a2510" stroke-width="1.8" fill="none" />
+      <circle cx="115" cy="71" r="4" fill="#2c3e50" />
+      <circle cx="116.2" cy="69.2" r="1.3" fill="#ffffff" />
+      <circle cx="137" cy="71" r="4" fill="#2c3e50" />
+      <circle cx="138.2" cy="69.2" r="1.3" fill="#ffffff" />
+
+      <!-- Gentle Sweet Smile -->
+      <path d="M 119 80 Q 126 86 133 80" fill="none" stroke="#e74c3c" stroke-width="2.8" stroke-linecap="round" />
+    </g>
+
+  </g>
+</svg>
