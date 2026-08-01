@@ -1,4 +1,4 @@
-const CACHE_NAME = 'o-an-quan-v1';
+const CACHE_NAME = 'o-an-quan-v2';
 const ASSETS_TO_CACHE = [
   '/OQuan/',
   '/OQuan/index.html',
